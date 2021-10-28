@@ -1,15 +1,16 @@
-Summary:
+## Summary:
 
 The client application may not connect to Redis around 40 seconds.
 
-Details:
+## Details:
 
 Redis Cache scale C1 to C2 to C1.
 
 Sample Code: Quickstart: Use Azure Cache for Redis in .NET Core | Microsoft Docs
 
-Code snippet:
+## Code snippet:
 
+``` C#
 // Add try catch to handle the Timeout exception
 
 static void Main(string[] args)
@@ -66,12 +67,12 @@ static void Main(string[] args)
             }
             Console.WriteLine("End: " + DateTime.UtcNow.ToString("yyyyMMdd HH:mm:ss"));
         }
+```
 
 
+**dotnet run > log.txt**
 
-dotnet run > log.txt
-
-Start: 20211027 12:33:59
+**Start: 20211027 12:33:59**
 
 Cache command  : PING
 Cache response : PONG
@@ -93,7 +94,7 @@ id=1089 addr=36.226.71.185:51563 fd=4 name=JACKYNUC age=0 idle=0 flags=N db=0 su
 id=1090 addr=36.226.71.185:51562 fd=38 name=JACKYNUC age=0 idle=0 flags=N db=0 sub=0 psub=0 multi=-1 qbuf=0 qbuf-free=32768 obl=0 oll=0 omem=0 ow=0 owmem=0 events=r cmd=client numops=14
 id=1034 addr=168.63.141.141:12103 fd=12 name= age=17 idle=17 flags=N db=0 sub=0 psub=0 multi=-1 qbuf=0 qbuf-free=0 obl=0 oll=0 omem=0 ow=0 owmem=0 events=r cmd=setclientaddr numops=1
 id=1035 addr=168.63.141.141:12105 fd=42 name= age=17 idle=17 flags=N db=0 sub=0 psub=0 multi=-1 qbuf=0 qbuf-free=0 obl=0 oll=0 omem=0 ow=0 owmem=0 events=r cmd=setclientaddr numops=1
-End: 20211027 12:33:59
+**End: 20211027 12:33:59**
 
 Start: 20211027 12:33:59
 
@@ -121,7 +122,7 @@ End: 20211027 12:33:59
 
 …
 
-Start: 20211027 12:46:19
+**Start: 20211027 12:46:19**
 
 Cache command  : PING
 Cache response : PONG
@@ -148,7 +149,7 @@ Start: 20211027 12:46:38
 
 Cache command  : PING
 No connection is active/available to service this operation: PING; A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond., mc: 1/1/0, mgr: 10 of 10 available, clientName: JACKYNUC, IOCP: (Busy=0,Free=1000,Min=12,Max=1000), WORKER: (Busy=0,Free=32767,Min=12,Max=32767), v: 2.2.79.4591
-Start: 20211027 12:46:38
+**Start: 20211027 12:46:38**
 
 
 …
