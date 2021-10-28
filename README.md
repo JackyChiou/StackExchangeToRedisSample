@@ -7,6 +7,7 @@ The client application may not connect to Redis around 40 seconds.
 Redis Cache scale C1 to C2 to C1.
 
 Sample Code: Quickstart: Use Azure Cache for Redis in .NET Core | Microsoft Docs
+https://docs.microsoft.com/en-us/azure/azure-cache-for-redis/cache-dotnet-core-quickstart
 
 ## Code snippet:
 
