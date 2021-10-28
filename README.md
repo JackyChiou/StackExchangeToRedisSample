@@ -1,6 +1,6 @@
 ## Summary:
 
-The client application may not connect to Redis around 40 seconds.
+The client application may not connect to Redis around 40 seconds during Redis scaling operation.
 
 ## Details:
 
