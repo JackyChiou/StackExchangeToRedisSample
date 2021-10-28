@@ -150,7 +150,7 @@ Start: 20211027 12:46:38
 
 Cache command  : PING
 No connection is active/available to service this operation: PING; A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond., mc: 1/1/0, mgr: 10 of 10 available, clientName: JACKYNUC, IOCP: (Busy=0,Free=1000,Min=12,Max=1000), WORKER: (Busy=0,Free=32767,Min=12,Max=32767), v: 2.2.79.4591
-**Start: 20211027 12:46:38**
+Start: 20211027 12:46:38
 
 
 …
@@ -159,7 +159,12 @@ Start: 20211027 12:47:00
 
 Cache command  : PING
 No connection is active/available to service this operation: PING; A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond., mc: 1/1/0, mgr: 9 of 10 available, clientName: JACKYNUC, IOCP: (Busy=0,Free=1000,Min=12,Max=1000), WORKER: (Busy=1,Free=32766,Min=12,Max=32767), v: 2.2.79.4591
-Start: 20211027 12:47:00
+
+
+**Start: 20211027 12:47:00**
 
 Cache command  : PING
 Cache response : PONG
+
+Client can connect to Redis now.
+
