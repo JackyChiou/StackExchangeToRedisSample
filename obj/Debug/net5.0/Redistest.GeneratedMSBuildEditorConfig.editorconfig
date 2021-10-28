@@ -7,4 +7,4 @@ build_property.PublishSingleFile =
 build_property.IncludeAllContentForSelfExtract = 
 build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
 build_property.RootNamespace = Redistest
-build_property.ProjectDir = c:\workspace\StackExchangeRedisClient\Redistest\
+build_property.ProjectDir = C:\workspace\StackExchangeRedisClient\Redistest\
