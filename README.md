@@ -73,6 +73,8 @@ static void Main(string[] args)
 
 **dotnet run > log.txt**
 
+## Verify the behavior from log
+
 **Start: 20211027 12:33:59**
 
 Cache command  : PING
